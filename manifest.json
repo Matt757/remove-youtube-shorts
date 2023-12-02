@@ -2,17 +2,12 @@
   "name": "Remove YouTube Shorts",
   "description": "Turns YouTube Shorts into normal videos",
   "version": "1.0",
-  "manifest_version": 3,
+  "manifest_version": 2,
   "background": {
-    "service_worker": "background.js"
+    "scripts": ["background.js"]
   },
   "icons": {
     "128": "/images/ytshorts.png"
   },
-  "action": {
-    "default_icon": "/images/ytshorts.png"
-  },
-  "permissions": [
-    "tabs"
-  ]
+  "permissions": ["tabs"]
 }
